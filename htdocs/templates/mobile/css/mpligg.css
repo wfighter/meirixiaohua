@@ -1,0 +1,203 @@
+/** JQUERY OVERIDE **/
+.header-button.ui-header .ui-btn-inner, .header-button.ui-footer .ui-btn-inner, .header-button.ui-mini .ui-btn-inner {
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.header-button.ui-mini {
+    margin: 0.4em 5px;
+}
+
+.ui-field-contain {
+    border-bottom-width: 0;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.ui-select .ui-btn {
+	margin: 0.25em 5px;
+}
+
+.ui-li-has-count .ui-li-count {
+	margin-top:0px;
+	font-size:10px;
+	top:inherit;
+}
+
+.story-preview.ui-li-has-count .ui-li-count, .no-thump.ui-li-has-count .ui-li-count {
+	top:50%;
+	margin-top:-1.5em;
+}
+
+
+.ui-li-desc, .ui-li-heading {
+	margin:inherit;
+	width:99%;
+
+	word-wrap: break-word;
+	white-space:normal;
+}
+
+.story-h3.ui-li-heading {
+	
+	font-size: 16px;
+	line-height:16px;
+	height:33px;
+}
+
+
+
+.ui-field-contain input.ui-input-text, .ui-field-contain textarea.ui-input-text, .ui-field-contain .ui-input-search {
+    display: inline-block;
+    width: 100%;
+}
+
+.ui-field-contain label.ui-input-text {
+    width: 100%;
+}
+
+
+
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb {
+    min-height: 60px;
+    padding-left: 80px;
+}
+
+.ui-li.ui-li-static.story-preview{
+	padding-left:80px;
+}
+
+/** HEADER **/
+.mpligg-header.ui-header {
+	padding:10px;
+}
+
+.mpligg-header.ui-header .ui-btn-right-mp {
+    position: absolute;
+    right: 5px;
+    top: -1px;
+}
+
+.ui-link {
+	text-decoration:none;
+}
+
+/** CONTENT **/
+.story-title img {
+	border-radius:10px;
+	
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  margin-bottom:10px;
+}
+
+.story-news {
+	margin-top:10px;
+	font-size:16px;
+}
+
+.story-thumb img {
+	margin:10px;
+	width:60px;
+	height:60px;
+	border-radius:10px;
+	top:inherit;
+	
+    left:10px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.ui-body-c .ui-link.source {
+	color:#996600;
+}
+
+#recaptcha_image {
+	width:100% !important;
+}
+
+#recaptcha_image > img{
+height:57px;
+width:100%;
+}
+
+.margin-top-twentypixel {
+	margin-top:20px;
+}
+
+.floatleft {
+	float:left;
+	}
+	
+.floatright {
+	float:right;
+}
+
+.votenumber {
+	display:block;
+	text-align:center;
+}
+
+.subtext {
+	font-size:12px;
+	display:block;
+}
+
+.right {
+	float:right;
+}
+
+.comment-ago {
+	font-style:italic;
+}
+
+/** Register page **/
+.heading-inline {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.heading2-inline {
+    font-size: 150%;
+    font-weight: bold;
+	padding: 15px 0 0 15px;
+}
+
+.heading3-inline {
+	padding: 15px 15px 0 15px;
+}
+
+/** User page **/
+.padding-bottom {
+	padding-bottom:10px;
+}
+
+.error, .errordiv {
+	color:red;
+}
+
+/** Story page **/
+.ui-li-rate {
+	position:absolute;
+	right:10px;
+	top:15px;
+}
+
+.ui-rate {
+	display:block;
+	padding: 0.2em 0.5em;
+	line-height:10px;
+	text-align:center;
+}
+
+/** Group page **/
+.group_avatar {
+}
+
+/** FOOTER **/
+.ui-footer {
+	padding:10px;
+	text-align:center;
+}

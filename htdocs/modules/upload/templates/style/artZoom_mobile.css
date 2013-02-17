@@ -1,0 +1,41 @@
+/* CSS Document Download by http://www.codefans.net*/
+.artZoomBox{width:374px; padding-top:2px;}
+A.artZoom { COLOR: #ccc; PADDING-TOP: 3px;  POSITION: relative; }
+A.artZoom:hover {
+	TEXT-DECORATION: none
+}
+A.artZoom SPAN.loading {
+	DISPLAY: block; PADDING-LEFT: 20px; FONT-SIZE: 9px; BACKGROUND: url(../images/loading.gif) #fff no-repeat 0px 0px; FILTER: alpha(opacity=70); MARGIN: 2px 0px; WIDTH: 130px; LINE-HEIGHT: 16px; HEIGHT: 16px; opacity: 0.7
+}
+.artZoomBox {
+	POSITION: relative; width:374px;
+}
+.artZoomBox .tool {LEFT: 34px; VISIBILITY: hidden; POSITION: absolute; TOP: 20px}
+.js_hover.artZoomBox .tool {
+	VISIBILITY: visible
+}
+.artZoomBox .tool A {
+	DISPLAY: block; FILTER: alpha(opacity=50); FLOAT: left; BACKGROUND-IMAGE: url(../images/photoTool.gif); OVERFLOW: hidden; WIDTH: 24px; COLOR: #fff; TEXT-INDENT: -9999em; BACKGROUND-REPEAT: no-repeat; HEIGHT: 24px; BACKGROUND-COLOR: #3a6ea5; TEXT-DECORATION: none; opacity: 0.5
+}
+.artZoomBox .tool A:hover {
+	FILTER: alpha(opacity=80); opacity: 0.8
+}
+.artZoomBox .tool A.hideImg {
+	DISPLAY: none
+}
+.artZoomBox .tool A.imgLeft {
+	BACKGROUND-POSITION: 0px 0px
+}
+.artZoomBox .tool A.imgLeft {
+	BACKGROUND-POSITION: -24px 0px
+}
+.artZoomBox .tool A.viewImg {
+	BACKGROUND-POSITION: 0px -24px
+}
+.artZoomBox A.maxImgLink {
+	DISPLAY: inline; ZOOM: 1
+}
+.artZoomBox A.maxImgLink .maxImg { max-width:306px;}
+.artZoomBox A.maxImgLink{ display:block; width:374px;height:auto; padding-bottom:2px;}
+.small{ width:64px; height:64px; padding:3px; border:1px solid #ccc;}
+a.miniImg{ padding-bottom:0;}

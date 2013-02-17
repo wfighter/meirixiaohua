@@ -1,0 +1,62 @@
+/** 
+* @link		http://www.lwis.net/
+* @copyright	2008 Live Web Institute. All Rights Reserved.
+*/
+
+#categories {
+xxbackground: url('../images/tab-current-bg2.gif') -5px -2px repeat-x #abe3ff;
+xxborder-bottom: 1px solid #36a3d9;
+
+height: 30px;
+margin: 0px;
+padding: 0px;
+}
+
+ul.dropdown { padding: 6px 5px; }
+ul.dropdown li { padding: 2px 15px; border-right: 1px solid #525266; }
+ul.dropdown li.hover,
+ul.dropdown li:hover { }
+
+ul.dropdown a {
+	font-weight: bold;
+	font-size: 14px;
+	color: #C60;
+	xxpadding: 1px 2px;
+}
+
+ul.dropdown ul { width: 150px; padding: 5px;
+	background: url('../images/body-bg.gif') 0px -2px repeat-x #fff;
+	border: 1px solid #545454;
+}
+ul.dropdown ul li { border-bottom: 1px solid #545454; border-right: none;
+	padding: 5px 5px 6px 5px; }
+
+ul.dropdown *.dir {
+padding-right: 20px;
+background-image: url(images/nav-arrow-down.png);
+background-position: 100% 50%;
+background-repeat: no-repeat;
+}
+
+ul.dropdown-horizontal ul *.dir {
+padding-right: 15px;
+background-image: url(images/nav-arrow-right.png);
+background-position: 100% 50%;
+background-repeat: no-repeat;
+}
+
+ul.dropdown-upward *.dir {
+background-image: url(images/nav-arrow-top.png);
+}
+
+ul.dropdown-vertical *.dir,
+ul.dropdown-upward ul *.dir {
+background-image: url(images/nav-arrow-right.png);
+}
+
+ul.dropdown-vertical-rtl *.dir {
+padding-right: 10px;
+padding-left: 15px;
+background-image: url(images/nav-arrow-left.png);
+background-position: 0 50%;
+}
