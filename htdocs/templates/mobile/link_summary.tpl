@@ -7,28 +7,7 @@
 		
 {checkActionsTpl location="tpl_pligg_story_start"}
 	<div class="story-title">{checkActionsTpl location="tpl_pligg_story_title_start"}
-	<span class="ui-li-count">
-					{checkActionsTpl location="tpl_pligg_story_votebox_start"}
-						<span class="votenumber">
-							<a id="xvotes-{$link_shakebox_index}" href="javascript:{$link_shakebox_javascript_vote}">{$link_shakebox_votes}</a>
-						</span>
-						<span id="xvote-{$link_shakebox_index}">
-							{if $link_shakebox_currentuser_votes eq 0 && $link_shakebox_currentuser_reports eq 0}
-								<a href="javascript:{$link_shakebox_javascript_vote}">{#PLIGG_Visual_Vote_For_It#}</a>
-							{else}
-								{if $link_shakebox_currentuser_reports neq 0}
-									<span>{#PLIGG_Visual_Vote_Report#}</span>
-								{else}
-									{if $pagename eq "user" && $user_logged_in neq $link_submitter}
-										<a href="javascript:{$link_shakebox_javascript_unvote}">{#PLIGG_Visual_Unvote_For_It#}</a>
-									{else}
-										<span>{#PLIGG_Visual_Vote_Cast#}</span>
-									{/if}	
-								{/if}
-							{/if}
-						</span>
-					{checkActionsTpl location="tpl_pligg_story_votebox_end"}
-				</span>
+
 		<h3>		
 
 			{if $use_title_as_link eq true}
